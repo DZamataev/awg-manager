@@ -2,8 +2,8 @@
 # AWG Manager — установщик для роутеров Keenetic
 #
 # Установка (последняя версия):
-#   curl -sL https://raw.githubusercontent.com/hoaxisr/awg-manager/main/scripts/install.sh | sh
-#   wget -qO- https://raw.githubusercontent.com/hoaxisr/awg-manager/main/scripts/install.sh | sh
+#   curl -sL https://raw.githubusercontent.com/dzamataev/awg-manager/main/scripts/install.sh | sh
+#   wget -qO- https://raw.githubusercontent.com/dzamataev/awg-manager/main/scripts/install.sh | sh
 #
 # Установка конкретной версии:
 #   curl -sL .../install.sh | sh -s -- 2.1.0
@@ -12,8 +12,8 @@
 
 set -e
 
-REPO="hoaxisr/awg-manager"
-ENTWARE_REPO="https://hoaxisr.github.io/entware-repo"
+REPO="dzamataev/awg-manager"
+ENTWARE_REPO="https://dzamataev.github.io/entware-repo"
 OPKG_CONF="/opt/etc/opkg/awg_manager.conf"
 TMP_DIR="/tmp/awg-manager-install"
 
