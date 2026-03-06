@@ -5,7 +5,7 @@
 ## Установка
 
 ```sh
-curl -sL https://raw.githubusercontent.com/hoaxisr/awg-manager/main/scripts/install.sh | sh
+curl -sL https://raw.githubusercontent.com/DZamataev/awg-manager/main/scripts/install.sh | sh
 ```
 ПОЛНОЕ УДАЛЕНИЕ:
 
